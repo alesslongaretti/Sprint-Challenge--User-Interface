@@ -1,0 +1,103 @@
+#pagewrap {
+  margin: 0 auto;
+  width: 800px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 40px 10px 0px;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.lambdablack {
+  margin: 0px 0px 20px 0px;
+}
+
+.about {
+  margin: 7px 0px 7px 30px;
+}
+
+.first {
+  display: flex;
+}
+
+.second {
+  display: flex;
+}
+
+.strategy {
+  padding: 0px 10px 0px 10px;
+}
+
+.collaboration {
+  padding: 0px 0px 0px 25px;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px;
+  border-width: 2px;
+  border-color: black;
+  margin: 0px 0px 13px 0px;
+}
+
+p {
+  font-size: 18px;
+}
+h1 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed;
+  height: 15px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer {
+  width: 100%;
+  background: black;
+}
+
+.hrlines {
+  display: flex;
+}
+.lefthr {
+  width: 48%;
+  float: left;
+  margin: 3px 3px 3px 3px;
+}
+
+.righthr {
+  float: right;
+  width: 48%;
+
+  margin: 3px 0px 3px 20px;
+}
